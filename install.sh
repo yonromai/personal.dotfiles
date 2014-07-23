@@ -10,7 +10,9 @@ cd ~/.dotfiles
 git clone https://github.com/yonromai/personal.dotfiles
 git clone https://ghe.spotify.net/romain/spotify.dotfiles
 
-./personal.dotfiles/bootstrap
-./spotify.dotfiles/bootstrap
+cd ~/.dotfiles/personal.dotfiles
+./bootstrap
+cd ~/.dotfiles/spotify.dotfiles
+./bootstrap
 
 echo 'Please restart session to update'
